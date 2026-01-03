@@ -1,0 +1,9 @@
+streamlit>=1.28.0
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.12.0
+pandas>=1.5.0
+numpy>=1.21.0
+# Optional dependencies for system monitoring
+psutil>=5.9.0
+GPUtil>=1.4.0
