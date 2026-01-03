@@ -1,8 +1,8 @@
-# 🔧 Maintenance Text Summarizer
+#  Maintenance Text Summarizer
 
 A web-based application for summarizing maintenance descriptions and technical documents using a fine-tuned DistilBART model.
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Option 1: Simple UI (Recommended for First Time)
 
@@ -57,31 +57,31 @@ chmod +x run_ui.sh
 
 4. **Open your browser and go to:** `http://localhost:8501`
 
-## ✨ Features
+##  Features
 
 ### Simple UI (`simple_ui.py`)
-- **🎯 Clean Interface**: Straightforward, easy-to-use design
-- **⚡ Fast Loading**: Minimal dependencies, quick startup
-- **📝 Core Functionality**: Text input, summarization, download
-- **🔧 Model Management**: Simple model loading with status indicators
-- **📊 Basic Statistics**: Word count and compression metrics
-- **📋 Sample Texts**: Pre-loaded examples for quick testing
+- **Clean Interface**: Straightforward, easy-to-use design
+- **Fast Loading**: Minimal dependencies, quick startup
+- **Core Functionality**: Text input, summarization, download
+- **Model Management**: Simple model loading with status indicators
+- **Basic Statistics**: Word count and compression metrics
+- **Sample Texts**: Pre-loaded examples for quick testing
 
 ### Enhanced UI (`summarizer_ui.py`)
-- **🤖 Advanced AI**: Multiple generation parameters and controls
-- **📊 Real-time Monitoring**: System resource tracking and performance analytics
-- **🔄 Session Management**: Processing history and performance statistics
-- **📁 Multiple Export Formats**: Text files, JSON session data
-- **🚀 Batch Processing Ready**: Infrastructure for bulk text processing
-- **🖥️ System Integration**: GPU/CPU detection and comprehensive monitoring
+- **Advanced AI**: Multiple generation parameters and controls
+- **Real-time Monitoring**: System resource tracking and performance analytics
+- **Session Management**: Processing history and performance statistics
+- **Multiple Export Formats**: Text files, JSON session data
+- **Batch Processing Ready**: Infrastructure for bulk text processing
+- **System Integration**: GPU/CPU detection and comprehensive monitoring
 
 ### Common Features (Both UIs)
-- **🤖 AI-Powered Summarization**: Fine-tuned DistilBART model
-- **📱 Responsive Design**: Works across different screen sizes
-- **⚡ Optimized Performance**: Cached model loading and efficient inference
-- **🛡️ Robust Error Handling**: Comprehensive error management and user feedback
+- **AI-Powered Summarization**: Fine-tuned DistilBART model
+- **Responsive Design**: Works across different screen sizes
+- **Optimized Performance**: Cached model loading and efficient inference
+- **Robust Error Handling**: Comprehensive error management and user feedback
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```
 maintenance_summarizer/
@@ -96,7 +96,7 @@ maintenance_summarizer/
 └── README.md                    # This documentation file
 ```
 
-## 🤔 Which UI Should I Use?
+## Which UI Should I Use?
 
 ### Choose Simple UI (`simple_ui.py`) if you:
 - Want a quick, straightforward experience
@@ -112,7 +112,7 @@ maintenance_summarizer/
 - Want detailed performance tracking
 - Need multiple export formats
 
-## 📖 Usage Guide
+##  Usage Guide
 
 ### Simple UI Usage
 1. **Load Model**: Click "Load Model" in the sidebar
@@ -196,7 +196,7 @@ GPUtil>=1.4.0          # GPU monitoring
 export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
 ```
 
-## 📊 Model Details
+##  Model Details
 
 - **Base Model**: sshleifer/distilbart-cnn-12-6
 - **Input Length**: 384 tokens
@@ -248,7 +248,7 @@ export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
 - **Parameter Tuning**: Adjust temperature and sampling for desired output quality vs speed
 - **Session Tracking**: Monitor your usage patterns and performance over time
 
-## 📝 Example Usage
+## Example Usage
 
 ```
 Input Text:
@@ -267,7 +267,7 @@ Recommended actions: refrigerant recharge, clean coils, replace filters, and
 schedule comprehensive tune-up."
 ```
 
-## 🔄 Development
+## Development
 
 ### Adding Features
 
@@ -276,33 +276,3 @@ schedule comprehensive tune-up."
 3. **Batch Processing**: Implement multi-text summarization
 4. **Export Options**: Add PDF, DOCX export capabilities
 
-### Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 🤝 Support
-
-For issues and questions:
-1. Check the troubleshooting section
-2. Review the model training script
-3. Verify all dependencies are installed
-4. Test with the provided examples
-
-## 🎯 Future Enhancements
-
-- [ ] Multi-language support
-- [ ] Batch text processing
-- [ ] API endpoint creation
-- [ ] Database integration
-- [ ] Advanced analytics dashboard
-- [ ] Mobile-responsive design
-- [ ] User authentication
-- [ ] Cloud deployment options
